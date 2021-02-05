@@ -1,0 +1,23 @@
+@media(max-width:576px){
+    body{
+        background-color: rgb(231, 231, 230);
+    }
+    .home-inner {
+        padding-top: 99px!important;
+    }
+    #banner-section-text{
+        display: none;
+       
+    }
+    #banner-heading{
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 25px;
+    }
+    .navbar{
+        background-color: rgb(28, 28, 173)!important;
+        opacity: .7;
+        border-bottom: 4px solid blue;
+        color: white;
+    }
+}

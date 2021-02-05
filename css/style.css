@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    background-color: rgb(35, 41, 41)!important;
+    opacity: 10;
+    border-bottom: 4px solid blue;
+    color: white;
+}
+#home-section{
+    background-image: url("../img/home.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#home-section .fa{
+    background-color: rgb(34, 24, 24);
+    color: skyblue;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 8px;
+}
+.home-overlay{
+    background-color: rgba(12, 11, 11, 0.548);
+    min-height: 700px;
+}
+
+.home-inner{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+#explore-main-section .fa{
+    background-color: rgb(34, 24, 24);
+    color: skyblue;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 8px;
+
+}
+#presession-section .fa{
+    background-color: rgb(238, 232, 232);
+    color: rgb(19, 22, 24);
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 8px;
+}
+#share-section .fa{
+    background-color: rgb(34, 24, 24);
+    color: skyblue;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 8px;
+}
+.contact-logo a{
+    text-decoration: none;
+}
+.contact-icon ul{
+    list-style: none;
+}
+.contact-icon ul li{
+    display:inline-block
+}
+.contact-icon ul li a{
+    display: block;
+    padding: 4px;
+    text-align: center;
+}
+.contact-icon ul li a i{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    margin: 0px 5px;
+    background-color: rgb(255, 255, 255);
+    font-size: 25px;
+
+
+}
+#contactbtn{
+    text-align: center;
+}
